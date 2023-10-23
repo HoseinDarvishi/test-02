@@ -9,5 +9,6 @@ namespace test_01
     public class Tools
     {
         public string GetNewhash() => Guid.NewGuid().ToString();
+        public int GetNewNum() => 20;
     }
 }
